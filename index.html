@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff0f7">
+<title>For Shravikkaa ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+:root{--pink:#ffedf5;--pink2:#ffd1e5;--rose:#d94d8c;--dark:#5d2945;--cream:#fffaf7;--lilac:#eee7ff}
+*{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;font-family:'DM Sans',sans-serif;color:var(--dark);background:radial-gradient(circle at 15% 15%,#fff 0 3%,transparent 28%),linear-gradient(145deg,#fff7fb,#ffe7f1 55%,#f3eaff);overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}.screen{min-height:100svh;display:none;align-items:center;justify-content:center;padding:22px;position:relative}.screen.active{display:flex}.panel{width:min(720px,100%);max-height:calc(100svh - 44px);overflow:auto;background:#ffffffd9;border:1px solid #fff;box-shadow:0 20px 70px #a94d7725;border-radius:30px;padding:clamp(22px,5vw,44px);text-align:center;backdrop-filter:blur(12px);position:relative;z-index:2}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:700;color:#b25a82}.script{font-family:Pacifico,cursive;color:var(--rose);font-weight:400}.title{font:700 clamp(2.2rem,8vw,4.8rem)/1.05 'Playfair Display',serif;margin:12px 0}.subtitle{line-height:1.75;max-width:540px;margin:14px auto}.btn{padding:13px 22px;border-radius:999px;background:linear-gradient(135deg,#e85d9b,#bf70d6);color:#fff;font-weight:700;box-shadow:0 9px 22px #d94d8c35;transition:transform .2s}.btn:hover{transform:translateY(-2px) scale(1.02)}.btn.secondary{background:#fff;color:#a83f72;border:1px solid #f4bfd7;box-shadow:none}.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:24px}.sticker{font-size:clamp(2rem,7vw,4rem);animation:bob 3s ease-in-out infinite;display:inline-block}.mini{font-size:.85rem;color:#a16c86}.polaroid{display:inline-block;background:white;padding:10px 10px 24px;box-shadow:0 12px 28px #70355025;transform:rotate(-3deg);border:1px solid #f8dce9;border-radius:3px;max-width:min(300px,85%);margin:18px auto}.polaroid img{display:block;width:100%;max-height:260px;object-fit:cover;border-radius:2px}.polaroid figcaption{font-family:Pacifico,cursive;margin-top:12px;color:#b84c80}.cake{font-size:clamp(5rem,20vw,9rem);filter:drop-shadow(0 8px 10px #d35a8c22);animation:bob 2.8s ease-in-out infinite}.candles{font-size:1.4rem;letter-spacing:.2em}.popup{position:fixed;inset:0;z-index:20;display:none;align-items:center;justify-content:center;padding:20px;background:#49223868;backdrop-filter:blur(5px)}.popup.show{display:flex;animation:fade .25s}.popcard{width:min(440px,100%);background:linear-gradient(145deg,#fff,#fff0f7);border:2px solid white;border-radius:28px;padding:30px 24px;box-shadow:0 25px 80px #3c102b45;text-align:center;animation:pop .48s cubic-bezier(.2,1.5,.4,1)}.popcard h2{font:700 2rem 'Playfair Display',serif;margin:8px}.popcard p{line-height:1.65}.floating{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:1}.floaty{position:absolute;bottom:-100px;animation:rise linear forwards;font-size:28px;opacity:.8}.petal{position:fixed;top:-40px;pointer-events:none;animation:fall linear forwards;z-index:5}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:22px 0}.memorytile{padding:16px 12px;border-radius:18px;background:#fff7fb;border:1px dashed #efb4d1;line-height:1.5}.letter{white-space:pre-line;text-align:left;line-height:1.9;background:#fff8fb;border:1px solid #f8d5e5;border-radius:18px;padding:22px}.videoBox video{max-width:100%;max-height:45vh;border-radius:16px}.progress{position:fixed;top:0;left:0;height:4px;background:#e15c9c;width:0;z-index:30;transition:width .3s}.sound{position:fixed;right:12px;top:12px;z-index:10;background:#ffffffdd;color:#9d3f70;border:1px solid #f3bfd8;border-radius:999px;padding:9px 12px;font-size:.8rem}
+@keyframes bob{50%{transform:translateY(-12px) rotate(2deg)}}@keyframes rise{to{transform:translateY(-120vh) translateX(35px) rotate(18deg);opacity:0}}@keyframes fade{from{opacity:0}to{opacity:1}}@keyframes pop{from{transform:scale(.72) translateY(25px);opacity:0}to{transform:scale(1);opacity:1}}@keyframes fall{to{transform:translateY(110vh) rotate(450deg);opacity:.2}}
+@media(max-width:480px){.screen{padding:12px}.panel{max-height:calc(100svh - 24px);padding:24px 18px;border-radius:24px}.letter{padding:16px}.sound{top:8px;right:8px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div><div class="floating" id="floating"></div>
+<button class="sound" id="musicBtn" type="button" aria-label="Toggle music">♫ Music: off</button>
+<audio id="music" loop preload="none"></audio>
+<main>
+<section class="screen active" data-step="0"><div class="panel">
+<div class="sticker">🎀 💌 🎈</div><div class="eyebrow">a tiny internet surprise</div>
+<h1 class="title">For <span class="script">Shravikkaa</span></h1>
+<p class="subtitle">A little scrapbook for my favourite Haggu, Shrav, Shravuuu, Kutti & Cutiee. 💗<br>Ready to be lovingly exposed?</p>
+<div class="polaroid"><img src="assets/shravikka-childhood.jpg" alt="Shravikkaa childhood photo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div style="display:none;font-size:4rem;padding:30px">🧸</div><figcaption>little haggu energy ✨</figcaption></div>
+<div class="actions"><button class="btn" onclick="next()">Open your surprise ✨</button></div><p class="mini">Best experienced with sound on, but music is optional ♡</p>
+</div></section>
+<section class="screen" data-step="1"><div class="panel">
+<div class="eyebrow">chapter one · breaking news</div><div class="sticker">🚨 🥔 🚨</div><h2 class="title">CAUGHT IN 4K</h2>
+<p class="subtitle">EXCUSE ME?! WHO GAVE THIS LITTLE POTATO PERMISSION TO BECOME <span class="script">17</span>?! 😭💗</p>
+<div class="polaroid"><img src="assets/shravikka-childhood.jpg" alt="baby Shravikkaa" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div style="display:none;font-size:5rem;padding:24px">👶🏻</div><figcaption>the original haggu™</figcaption></div>
+<div class="actions"><button class="btn" onclick="showPopup('📸 OFFICIAL EXPOSURE','This photo is evidence that you have always been cute… and a little suspicious. Case remains OPEN. 💀💗', 'NEXT EXPOSURE →', next)">NEXT EXPOSURE →</button></div>
+</div></section>
+<section class="screen" data-step="2"><div class="panel">
+<div class="eyebrow">chapter two · birthday loading</div><div class="sticker">🎈🎉🎈</div><h2 class="title">HAPPY <span class="script">17th</span>!</h2>
+<p class="subtitle">October 23 is officially the day the world got a little more chaotic, a little more cute, and 100% more <b>HAGGU</b>. 💅🏻</p>
+<div class="cake" id="cake">🎂</div><div class="candles">🕯️ 🕯️ 🕯️</div>
+<p class="subtitle">Make a wish, Kutti. Then tap the cake to make the candles sparkle. ✨</p>
+<div class="actions"><button class="btn" onclick="blowCandles()">Blow the candles 🕯️</button><button class="btn secondary" onclick="next()">Next, birthday girl →</button></div>
+</div></section>
+<section class="screen" data-step="3"><div class="panel">
+<div class="eyebrow">chapter three · friendship things</div><div class="sticker">🫶🏻 🧸 💗</div><h2 class="title">My favourite <span class="script">human</span></h2>
+<p class="subtitle">You are the person who stays with me even when I'm at my lowest. And honestly, that means more to me than I can explain. 🥹</p>
+<div class="grid"><div class="memorytile">😂 <b>Certified Haggu</b><br>Professional troublemaker</div><div class="memorytile">🎀 <b>My Shravuuu</b><br>Cutie with main-character energy</div><div class="memorytile">🫂 <b>My safe person</b><br>Stays even on the low days</div></div>
+<div class="actions"><button class="btn" onclick="showPopup('A VERY IMPORTANT ANNOUNCEMENT 📢','You are legally required to stay my friend, keep laughing at my nonsense, and let me call you Haggu forever. There is no unsubscribe button. 😭💗','I ACCEPT MY FATE 😂', next)">Read the official friendship contract 💌</button></div>
+</div></section>
+<section class="screen" data-step="4"><div class="panel">
+<div class="eyebrow">chapter four · from my heart</div><div class="sticker">💌 🌷 🥹</div><h2 class="title">Dear <span class="script">Shravuuu</span></h2>
+<div class="letter">Happy 17th birthday, my Shravikkaa, my Haggu, my Kutti. 💗
+
+I genuinely hope your life becomes happier after this birthday. I hope you get more reasons to laugh, more peaceful days, beautiful surprises, and people who love you the way you deserve.
+
+Thank you for staying with me when I'm low. Thank you for being there, for listening, and for making the heavy days feel a little lighter. You may think those little things are normal, but to me, they mean so much.
+
+I hope this new chapter brings you confidence, happiness, good memories, and dreams that slowly become real. Never forget how special you are to the people who care about you.
+
+Happy 17th birthday, Shravuuu. No matter how much I tease you, I'm genuinely grateful to have you in my life. Keep being your chaotic, cute, wonderful self. 🫂🎀
+
+Love you lots, Haggu. Here's to more memories, more laughter, and us being idiots together for a very long time. 💗</div>
+<div class="actions"><button class="btn" onclick="showPopup('ONE LAST THING, CUTIEE 🥹💗','You deserve the same comfort you give everyone else. On your hard days too, I hope you remember you never have to pretend to be okay around the people who love you. Happy birthday, my Kutti. 🫂','SAVE THIS IN YOUR HEART 💌', next)">Open one last note 🥹</button></div>
+</div></section>
+<section class="screen" data-step="5"><div class="panel">
+<div class="eyebrow">final chapter · memories forever</div><div class="sticker">🎞️ 🎈 💞</div><h2 class="title">Our little <span class="script">universe</span></h2>
+<p class="subtitle">Add your favourite photos and videos to this folder before publishing. This little corner of the internet is for all the memories still waiting to happen. 💗</p>
+<div class="grid"><div class="memorytile">📸<br><b>Our photos</b><br><span class="mini">Add them to the assets folder</span></div><div class="memorytile">🎥<br><b>Our videos</b><br><span class="mini">Use the guide in README</span></div><div class="memorytile">🎂<br><b>October 23</b><br><span class="mini">Your day, your year, your glow</span></div></div>
+<p class="subtitle script" style="font-size:1.7rem">Happy birthday, Shravikkaa ♡</p>
+<div class="actions"><button class="btn" onclick="showPopup('HAPPY 17TH, HAGGU!! 🎂🎈','May 17 be gentle with you, full of cute surprises, and filled with people who make you feel loved. Thank you for being my person. Now go enjoy your birthday, CUTIEE!! 😭💗','REPLAY THE SURPRISE ↻',()=>{step=0;update()})">One final surprise 🎁</button><button class="btn secondary" onclick="step=0;update()">Replay from the start ↻</button></div>
+</div></section>
+</main>
+<div class="popup" id="popup" role="dialog" aria-modal="true" aria-labelledby="popTitle"><div class="popcard"><div class="sticker" id="popEmoji">💗</div><h2 id="popTitle">Surprise!</h2><p id="popText"></p><button class="btn" id="popBtn">Continue →</button></div></div>
+<script>
+let step=0;const screens=[...document.querySelectorAll('.screen')];const progress=document.getElementById('progress');
+function update(){screens.forEach((s,i)=>s.classList.toggle('active',i===step));progress.style.width=((step)/(screens.length-1)*100)+'%';window.scrollTo({top:0,behavior:'smooth'});if(step===2)balloons(12);if(step===5)confetti(45)}
+function next(){if(step<screens.length-1){step++;update()}else step=0}
+function showPopup(title,text,button,callback){document.getElementById('popTitle').textContent=title;document.getElementById('popText').textContent=text;document.getElementById('popBtn').textContent=button;document.getElementById('popup').classList.add('show');document.getElementById('popBtn').onclick=()=>{document.getElementById('popup').classList.remove('show');if(callback)callback()};}
+function confetti(n=24){const symbols=['🎉','💗','✨','🌸','🎀'];for(let i=0;i<n;i++){let e=document.createElement('span');e.className='petal';e.textContent=symbols[Math.floor(Math.random()*symbols.length)];e.style.left=Math.random()*100+'vw';e.style.animationDuration=(3+Math.random()*4)+'s';e.style.animationDelay=Math.random()+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),8000)}}
+function balloons(n=8){const f=document.getElementById('floating');for(let i=0;i<n;i++){let e=document.createElement('span');e.className='floaty';e.textContent=['🎈','🎈','💗','🎀'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'%';e.style.animationDuration=(5+Math.random()*5)+'s';f.appendChild(e);setTimeout(()=>e.remove(),11000)}}
+function blowCandles(){document.getElementById('cake').textContent='🎂';confetti(35);showPopup('WISHES SENT TO THE UNIVERSE ✨','Your wish is officially out there, Shravuuu. May this year surprise you in all the loveliest ways. 💗','YAYYY 🎉',()=>{if(step<screens.length-1){step++;update()}})}
+document.getElementById('musicBtn').addEventListener('click',()=>{const a=document.getElementById('music');if(a.paused){if(!a.src){showPopup('ADD YOUR SONG 🎶','For music, add a song file named music.mp3 to the assets folder. Make sure you have permission to use it. Then tap Music again.','GOT IT 💗');return;}a.play().then(()=>document.getElementById('musicBtn').textContent='♫ Music: on').catch(()=>{});}else{a.pause();document.getElementById('musicBtn').textContent='♫ Music: off'}});
+document.getElementById('popup').addEventListener('click',e=>{if(e.target.id==='popup')e.currentTarget.classList.remove('show')});
+</script>
+</body>
+</html>
